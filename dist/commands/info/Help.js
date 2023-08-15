@@ -66,7 +66,7 @@ export default class Help extends Command {
             const helpEmbed = embed
                 .setColor(this.client.color.main)
                 .setTitle('Help Menu')
-                .setDescription(`Hey there! I'm ${this.client.user.username}, a simple music bot You can use \`${prefix}help <command>\` to get more info on a command.`)
+                .setDescription(`Hey there! I'm ${this.client.user.username}, a simple song bo You can use \`${prefix}help <command>\` to get more info on a command.`)
                 .setFooter({
                 text: `Use ${prefix}help <command> for more info on a command`,
             });

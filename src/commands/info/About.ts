@@ -68,7 +68,7 @@ export default class About extends Command {
         },
         {
           name: '\u200b',
-          value: `Simple Music Bot!`,
+          value: `Simple song bo!`,
           inline: true,
         },
       ]);
